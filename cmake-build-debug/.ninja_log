@@ -1,0 +1,21 @@
+# ninja log v5
+4	594	7200465833312031	build.ninja	9a2760c8b1176540
+6	1570	7199572811758809	CMakeFiles/untitled.dir/main.cpp.obj	28bdbe9904a71026
+7	317	7200447380594916	untitled.exe	9f8d38f59d1e9d17
+22	471	7198971000839318	CMakeFiles/untitled.dir/curves.cpp.obj	84b74fcabf577c45
+38	521	7198971001456892	CMakeFiles/untitled.dir/Point.cpp.obj	1f2644bca66a54d3
+1	382	7200330962703343	CMakeFiles/CurveLibrary.dir/curves.cpp.obj	b34a8682fe693bc2
+25	219	7200446801498579	CMakeFiles/untitled.dir/lib/Point.cpp.obj	45b614fe091c20e4
+14	304	7200446802339067	CMakeFiles/untitled.dir/lib/curves.cpp.obj	e9012b82bd134f13
+2	2164	7200446820951883	CMakeFiles/untitled.dir/exe/main.cpp.obj	d632d2ca21d63909
+7	252	7200460930582654	libCurveLibrary.dll.a	651f82002fec3454
+14	192	7200455127259427	CMakeFiles/CurveLibrary.dir/lib/Point.cpp.obj	a2a159dfec876456
+0	269	7200455128030706	CMakeFiles/CurveLibrary.dir/lib/curves.cpp.obj	7ccdcd8d967a5be4
+7	252	7200460930582654	libCurveLibrary.dll	651f82002fec3454
+12	1976	7200465924515214	CMakeFiles/untitled.dir/exe/main.cpp.obj	cff52097240b07af
+1980	2413	7200465928874634	untitled.exe	ef733ce956f6e0b3
+16	391	7200472091474264	CMakeFiles/CurveLibrary.dir/lib/curves.cpp.obj	7ccdcd8d967a5be4
+392	722	7200472094693172	libCurveLibrary.dll	651f82002fec3454
+392	722	7200472094693172	libCurveLibrary.dll.a	651f82002fec3454
+7	1872	7200472106268944	CMakeFiles/untitled.dir/exe/main.cpp.obj	cff52097240b07af
+1873	2180	7200472109294889	untitled.exe	ef733ce956f6e0b3
