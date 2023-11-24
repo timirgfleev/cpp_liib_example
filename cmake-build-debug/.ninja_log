@@ -19,3 +19,15 @@
 392	722	7200472094693172	libCurveLibrary.dll.a	651f82002fec3454
 7	1872	7200472106268944	CMakeFiles/untitled.dir/exe/main.cpp.obj	cff52097240b07af
 1873	2180	7200472109294889	untitled.exe	ef733ce956f6e0b3
+28	304	7201133155130422	CMakeFiles/CurveLibrary.dir/lib/curves.cpp.obj	7ccdcd8d967a5be4
+305	813	7201133160127069	libCurveLibrary.dll	651f82002fec3454
+305	813	7201133160127069	libCurveLibrary.dll.a	651f82002fec3454
+17	1517	7201133167257977	CMakeFiles/untitled.dir/exe/main.cpp.obj	cff52097240b07af
+1517	1783	7201133169851050	untitled.exe	ef733ce956f6e0b3
+25	645	7225338699533765	CMakeFiles/CurveLibrary.dir/lib/curves.cpp.obj	7ccdcd8d967a5be4
+9	2047	7225338713522823	CMakeFiles/untitled.dir/exe/main.cpp.obj	cff52097240b07af
+19	411	7225495938106513	CMakeFiles/CurveLibrary.dir/lib/curves.cpp.obj	7ccdcd8d967a5be4
+412	849	7225495942270696	libCurveLibrary.dll	651f82002fec3454
+412	849	7225495942270696	libCurveLibrary.dll.a	651f82002fec3454
+8	1826	7225495952304892	CMakeFiles/untitled.dir/exe/main.cpp.obj	cff52097240b07af
+1827	2186	7225495955829801	untitled.exe	ef733ce956f6e0b3

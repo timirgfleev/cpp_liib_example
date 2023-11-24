@@ -5,9 +5,11 @@
 #include <cmath>
 class Curve {
 public:
-    virtual Point GetPoint(double t) = 0;
+    virtual ~Curve();
 
-    virtual Point GetFirstDerivative(double t) = 0;
+    virtual Point GetPoint(double t) const = 0;
+
+    virtual Point GetFirstDerivative(double t) const = 0;
 };
 
 class Circle : public Curve {
@@ -16,9 +18,11 @@ public:
 
     double GetRadius() const;
 
-    virtual Point GetPoint(double t) override final;
+    virtual Point GetPoint(double t) const override final;
 
-    virtual Point GetFirstDerivative(double t) override final;
+    virtual Point GetFirstDerivative(double t) const override final;
+
+    ~Circle() override;
 
 protected:
     double r;
@@ -28,13 +32,15 @@ class Ellipse : public Curve {
 public:
     Ellipse(double r1, double r2);
 
-    virtual Point GetPoint(double t) override final;
+    Point GetPoint(double t) const final;
 
-    virtual Point GetFirstDerivative(double t) override final;
+    Point GetFirstDerivative(double t) const final;
 
     double getR1() const;
 
     double getR2() const;
+
+    ~Ellipse() override;
 
 protected:
 
@@ -45,10 +51,15 @@ class Helix : public Curve {
 public:
     Helix(double r, double steep);
 
-private:
-    virtual Point GetPoint(double t) override final;
+    Point GetPoint(double t) const final;
 
-    virtual Point GetFirstDerivative(double t) override final;
+    Point GetFirstDerivative(double t) const final;
+
+    double getR() const;
+
+    double getSteep() const;
+
+    ~Helix() override;
 
 protected:
     double r, steep;
